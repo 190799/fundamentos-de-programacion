@@ -1,0 +1,12 @@
+Proceso areadeltriangulo
+	escribir "ingrese la base: ";
+	leer base;
+	escribir "ingrese la altura: ";
+	leer altura;
+	area<-base*altura;
+	escribir "el area del triangulo es: ";
+	escribir area;
+	
+	
+	
+FinProceso
