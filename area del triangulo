@@ -1,10 +1,10 @@
-Proceso areadeltriangulo
-	escribir "ingrese la base: ";
+Proceso areadeltrianguloProceso areadeltriangulo
+	escribir "ingrese la base:";
 	leer base;
-	escribir "ingrese la altura: ";
+	escribir "ingrese la altura:";
 	leer altura;
-	area<-base*altura;
-	escribir "el area del triangulo es: ";
+	area <-(base * altura)/2;
+	escribir "el area del triangulo es:";
 	escribir area;
 	
 	
@@ -31,4 +31,3 @@ void main()
 	cout<< area;
 	getch ();
 }
-
