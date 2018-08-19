@@ -17,3 +17,10 @@ void main()
 
 }
 pseint
+Algoritmo areadelcuadrado
+	escribir "escribir el lado del cuadrado:";
+	leer L;
+	area<-L*L
+	escribir "el area del cuadrado es"
+	escribir area;
+FinAlgoritmo
