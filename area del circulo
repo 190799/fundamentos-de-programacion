@@ -1,0 +1,9 @@
+Algoritmo areadelcirculo
+	escribir "escribir el radio del circulo: ";
+	leer R;
+	area<- 3.1416*r*r;
+	escribir "el area del circulo es: ";
+	escribir area;
+
+	
+FinAlgoritmo
