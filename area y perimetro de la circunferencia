@@ -1,0 +1,36 @@
+// perimetro y area de la circunferencia.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main()
+{
+	float r,a,p;
+	cout<< "ingresar el valor del radio de la circunferencia: ";
+	cin>> r;
+	a=3.1416*r*r;
+	cout<< "el area de la circunferencia es: ";
+	cout<< a<<endl;
+	p=2*3.1416*r;
+	cout<< "el perimetro de la circunferencia es: ";
+	cout<< p;
+	getch ();
+}
+
+pseudocodigo
+
+Proceso areayperimetrodelacircunferencia
+	escribir "el radio de la circunferencia es: ";
+	leer r;
+	a<-3.1416*r*r
+	escribir "el area de la circunferencia es: ";
+	escribir a;
+	p<-2*3.1416*r
+	escribir "el perimetro de la circunferencia es: ";
+	escribir p;
+FinProceso
