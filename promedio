@@ -1,0 +1,61 @@
+// promedio.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float p,m,a,b,c,d,e;
+	p=0;
+	cout<< "ingrese el valor de a: ";
+	cin>> a;
+	p=p+a;
+	cout<< "el nuevo valo de p es: ";
+	cout<<p<<endl;
+	cout<<"ingrese el valor de b: ";
+	cin>> b;
+	p=p+b;
+	cout<< "el nuevo valo de p es: ";
+	cout<<p<<endl;
+	cout<<"ingrese el valor de c:";
+	cin>> c;
+	cout<< "el nuevo valo de p es: ";
+	p=p+c;
+	cout<< p<<endl;
+	cout<< "ingrese el valor de d: ";
+	cin>> d;
+	p=p+d;
+	cout<< "el nuevo valo de p es: ";
+	cout<< p<<endl;
+	cout<<"ingrese el valor de e: ";
+	cin>> e;
+	p=p+e;
+	cout<< "el nuevo valo de p es: ";
+	cout<< p<<endl;
+	m=0;
+	m=m+a;
+	cout<< "el nuevo valor de m es: ";
+	cout<< m<<endl;
+	m=m*b;
+	cout<< "el nuevo valor de m es: ";
+	cout<< m<<endl;
+	m=m*c;
+	cout<< "el nuevo valor de m es: ";
+	cout<< m<<endl;
+	m=m*d;
+	cout<< "el nuevo valor de m es: ";
+	cout<< m<<endl;
+	m=m*e;
+	cout<< "el nuevo valor de m es: ";
+	cout<< m<<endl;
+
+	getch();
+	
+}
+
+pseudocodigo
+
