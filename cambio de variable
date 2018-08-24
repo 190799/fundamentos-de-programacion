@@ -1,0 +1,39 @@
+// cambio de variable.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float a,b,c;
+	cout<< "ingrese la variable A: ";
+	cin>> a;
+	cout<< "ingrese la variable B: ";
+	cin>> b;
+	c=a;
+	a=b;
+	b=c;
+	cout<< "la nueva variable A es: ";
+	cout<< a<<endl;
+	cout<< "la nueva variable B es: ";
+	cout<< b;
+	getch ();
+}
+pseudocodigo
+Proceso cambiodevariable
+	escribir "ingrese la variable a: ";
+	leer a;
+	escribir "ingrese la variable b: ";
+	leer b;
+	c<-a;
+	a<-b;
+	b<-c;
+	escribir "la nueva variable de A es: ";
+	escribir a;
+	escribir "la nueva variable de b es: ";
+	escribir b;
+FinProceso
