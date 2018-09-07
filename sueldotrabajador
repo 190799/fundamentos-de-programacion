@@ -1,0 +1,30 @@
+// trabajosueldo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float salariob,salarion;
+		int sm=2060;
+	cout<<"ingresar el salario bruto: ";
+	cin>>salariob;
+	while(salariob!=-999)
+	{
+		if(salariob<2060)
+	      cout<<"--abuso al trabajador--"<<endl;
+		else{
+           if(salariob>=sm*4)
+	        salarion=salariob*0.749;
+           else 
+			   salarion=salariob*0.879;
+	      cout<<"el salario neto es:"<<salarion<<endl;
+	     }
+        cout<<"ingrese salario del siguiente trabajador: ";
+		cin>>salariob;}
+getch();
+}
