@@ -1,0 +1,33 @@
+// camisas.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	float c,d1,d2,dt,totalpagar,n;
+	c=50;
+	d1=0.30;
+	d2=0.20;
+	do{
+		cout<<"ingrese el numero de camisas: ";
+		cin>> n;
+	}while(n<=0);
+		if(n<=3){
+			totalpagar=c*n;
+				dt=totalpagar*d1;
+			totalpagar=totalpagar-dt;
+		}else
+		{totalpagar=c*n;
+		dt=totalpagar*d2;
+		totalpagar=totalpagar-dt;
+		}
+		cout<<"el total a pagar es: "<<totalpagar<<endl;
+		cout<<"con un descuento de: "<<dt;
+	getch();
+}
