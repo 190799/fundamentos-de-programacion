@@ -1,0 +1,40 @@
+// serie.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+float serie (float x, int n);
+int factorial(int x);
+
+
+void main(){
+	float resul,x;
+	int n;
+	cout<< "ingrese x: ";
+	cin>>x;
+	cout<< "ingrese el limite de serie N: ";
+	cin>> n;
+	resul=serie(x,n);
+	cout<< "la suma de la serie es: "<<resul;
+	getch ();
+}
+int factorial(int n){
+	int fac=1,i=1;
+	while (i<=n){
+		fac=fac*i;
+		i=i+1;
+	}
+	return (fac);
+}
+float serie (float x, int n){
+float sum=5;
+int i=1;
+while (i<=n){
+	sum=sum+pow(x,i)/factorial(i);
+	i++;
+}
+	return (sum);
+
+}
